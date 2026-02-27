@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h2>NSE:RELIANCE</h2>
+    <div class="tradingview-widget-container" style="height:300px;width:100%">
+        <div id="tv1" style="height:100%;width:100%"></div>
+    </div>
+    <h2>BSE:RELIANCE</h2>
+    <div class="tradingview-widget-container" style="height:300px;width:100%">
+        <div id="tv2" style="height:100%;width:100%"></div>
+    </div>
+    <h2>RELIANCE</h2>
+    <div class="tradingview-widget-container" style="height:300px;width:100%">
+        <div id="tv3" style="height:100%;width:100%"></div>
+    </div>
+
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+    <script type="text/javascript">
+        new TradingView.widget({"autosize": true, "symbol": "NSE:RELIANCE", "interval": "D", "container_id": "tv1"});
+        new TradingView.widget({"autosize": true, "symbol": "BSE:RELIANCE", "interval": "D", "container_id": "tv2"});
+        new TradingView.widget({"autosize": true, "symbol": "RELIANCE", "interval": "D", "container_id": "tv3"});
+    </script>
+</body>
+</html>
